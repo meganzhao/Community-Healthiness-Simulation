@@ -31,6 +31,6 @@ $ python3 community.py
 ![Alt text](img-demo/img3.png?raw=true "Title")
 
 ## Authors
-Anne Hackman
-Megan Zhao
+* Anne Hackman
+* Megan Zhao
 
