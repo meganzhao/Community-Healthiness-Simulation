@@ -32,6 +32,9 @@ After the number of days that the user chose is simulated, the window closes and
 ![Alt text](img-demo/img2.png?raw=true "Title")
 ![Alt text](img-demo/img3.png?raw=true "Title")
 
+## Library
+graphics.py - an open-source software released under the terms of the GPL (http://www.gnu.org/licenses/gpl.html).
+
 ## Authors
 * Anne Hackman
 * Megan Zhao
