@@ -376,27 +376,27 @@ class GraphicInterface:
 		
 	def drawBackground(self):
 		"""Draw the background image of a map"""
-		self.background = graphics.Image(graphics.Point(400,400),"map1.gif")
+		self.background = graphics.Image(graphics.Point(400,400),"img/map1.gif")
 		self.background.draw(self.win)
 	
 	def drawSchool(self):
 		"""Draw the image of a school"""
-		self.school = graphics.Image(graphics.Point(600, 150), "school.gif")
+		self.school = graphics.Image(graphics.Point(600, 150), "img/school.gif")
 		self.school.draw(self.win)
 		
 	def drawHospital(self):
 		"""Draw the image of a hospital"""
-		self.hospital = graphics.Image(graphics.Point(200, 630), "hospital.gif")
+		self.hospital = graphics.Image(graphics.Point(200, 630), "img/hospital.gif")
 		self.hospital.draw(self.win)
 		
 	def drawShop(self):
 		"""Draw the image of a shop"""
-		self.shop = graphics.Image(graphics.Point(400, 400), "shop.gif")
+		self.shop = graphics.Image(graphics.Point(400, 400), "img/shop.gif")
 		self.shop.draw(self.win)
 		
 	def drawOffice(self):
 		"""Draw the image of an office"""
-		self.office = graphics.Image(graphics.Point(200, 150), "office.gif")
+		self.office = graphics.Image(graphics.Point(200, 150), "img/office.gif")
 		self.office.draw(self.win)
 		
 	def schoolInfo(self, atSchoolList):
@@ -512,7 +512,7 @@ class GraphicInterface:
 		"""Create a window."""
 		self.introScreen = graphics.GraphWin("The Common Code", 800, 800)
 		self.introScreen.setCoords(0, 0, 800, 800)
-		self.background = graphics.Image(graphics.Point(400, 500), "map.gif")
+		self.background = graphics.Image(graphics.Point(400, 500), "img/map.gif")
 		self.background.draw(self.introScreen)
 		self.baseString = graphics.Text(graphics.Point(400, 100),"Please select the probability of getting sick for the school, \nthe office, and the shop, and the probability of recovery for \nthe hospital. Probability is based on age.")
 		self.baseString.setStyle("bold")
@@ -665,9 +665,9 @@ class GraphicInterface:
 		bigString.setSize(36)
 		bigString.setStyle("bold")
 		bigString.setFill("purple4")
-		kidImage = graphics.Image(graphics.Point(400,450),"kids.gif")
-		adultImage = graphics.Image(graphics.Point(200,150),"adult.gif")	
-		elderlyImage = graphics.Image(graphics.Point(600,150),"elderly.gif")
+		kidImage = graphics.Image(graphics.Point(400,450),"img/kids.gif")
+		adultImage = graphics.Image(graphics.Point(200,150),"img/adult.gif")	
+		elderlyImage = graphics.Image(graphics.Point(600,150),"img/elderly.gif")
 		kidString = graphics.Text(graphics.Point(400,600),"CHILDREN \n Sick: " + str(numSickKid) + "\n Healthy: " + str(numHealthyKid))
 		kidString.setSize(20)
 		kidString.setFill("purple4")
